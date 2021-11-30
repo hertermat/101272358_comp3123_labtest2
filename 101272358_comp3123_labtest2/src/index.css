@@ -1,0 +1,67 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App{
+  background-image:url('./images/snow.png');
+  background-size:contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  width:90%;
+}
+
+.App.rain{
+  background-image: url('./images/rain.png');
+  background-size:contain;
+  
+  background-repeat: no-repeat;
+  width:100%;
+}
+.App.sun{
+  background-image: url('./images/sun.png');
+  background-size:contain;
+  
+  background-repeat: no-repeat;
+  width:100%;
+}
+main{
+  height: 100vh;
+  
+}
+.location{
+  font-size: 50px;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  padding-top: 100px;
+}
+.date{
+  font-size: 20px;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+
+}
+
+.temp{
+  margin-top: 280px;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  font-style: italic;
+}
